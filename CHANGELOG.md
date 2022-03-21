@@ -1,3 +1,6 @@
-## 0.0.1
+## 1.0.0+1
 
-* TODO: Describe initial release.
+- Initial Release od Instamojo Integration
+- Test & Live Mode included
+- All payment methods include
+- UPI, Net Banking, Debit/Credit Card, EMI Options, Wallets

@@ -1,4 +1,4 @@
-# Flutter Instamojo Plugin
+# Instamojo Plugin
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![pub package](https://img.shields.io/badge/pub-v1.0.0%2B1-brightgreen)](https://pub.dev/packages/flutter_instamojo)
@@ -10,7 +10,7 @@ Feedback, Pull Requests are always welcome.
 
 *Note*: For Android and iOS Build import.
 ```shell script
-import 'package:flutter_instamojo/flutter_instamojo.dart';
+import 'package:instamojo/instamojo.dart';
 ```
 
 ## Features
@@ -29,7 +29,7 @@ import 'package:flutter_instamojo/flutter_instamojo.dart';
 
 ## Installation
 
-First, add `flutter_instamojo: ^1.0.0+1` as a [dependency in your pubspec.yaml file](https://flutter.io/using-packages/).
+First, add `instamojo: ^1.0.0+1` as a [dependency in your pubspec.yaml file](https://flutter.io/using-packages/).
 
 *Note*: For Live Mode SDK Server setup is required. You can find sample sdk server code below.
 
