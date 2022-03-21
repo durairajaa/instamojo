@@ -33,7 +33,7 @@ First, add `instamojo: ^1.0.0+1` as a [dependency in your pubspec.yaml file](htt
 
 *Note*: For Live Mode SDK Server setup is required. You can find sample sdk server code below.
 
-- Link to Sample Server Sdk `https://github.com/Instamojo/sample-sdk-server`
+- Link to Sample Server Sdk [Sample SDK Server](https://github.com/Instamojo/sample-sdk-server).
 
 ## Examples
 
@@ -221,12 +221,7 @@ startInstamojo() async {
 ```
 
 
-## Getting Started
-
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+## Getting Started With Flutter
 
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
