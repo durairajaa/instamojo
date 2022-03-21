@@ -1,7 +1,7 @@
 # Instamojo Plugin
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![pub package](https://img.shields.io/badge/pub-v1.0.0%2B1-brightgreen)](https://pub.dev/packages/flutter_instamojo)
+[![pub package](https://img.shields.io/badge/pub-v1.0.0%2B1-brightgreen)](https://pub.dev/packages/instamojo)
 
 Plugin to implement Instamojo Payment Gateway on your flutter app
 
@@ -29,7 +29,7 @@ import 'package:instamojo/instamojo.dart';
 
 ## Installation
 
-First, add `instamojo: ^1.0.0+1` as a [dependency in your pubspec.yaml file](https://flutter.io/using-packages/).
+First, add `instamojo: ^1.0.0+2` as a [dependency in your pubspec.yaml file](https://flutter.io/using-packages/).
 
 *Note*: For Live Mode SDK Server setup is required. You can find sample sdk server code below.
 

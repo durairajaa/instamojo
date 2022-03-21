@@ -26,11 +26,11 @@ class Instamojo extends StatefulWidget {
 
   const Instamojo(
       {Key? key,
-        required this.isConvenienceFeesApplied,
-        required this.environment,
-        required this.apiCallType,
-        this.stylingDetails,
-        required this.listener})
+      required this.isConvenienceFeesApplied,
+      required this.environment,
+      required this.apiCallType,
+      this.stylingDetails,
+      required this.listener})
       : super(key: key);
   @override
   _InstamojoState createState() => _InstamojoState();
@@ -45,16 +45,10 @@ class _InstamojoState extends State<Instamojo> {
       print('Instamojo called');
     }
     stylingDetails = widget.stylingDetails!;
-    BlocOverrides.runZoned(
-          () {
-        final overrides = BlocOverrides.current;
-      },
-      blocObserver: SimpleBlocObserver(),
-    );
-    //Bloc.observer = SimpleBlocObserver();
+    Bloc.observer = SimpleBlocObserver();
     repository = InstamojoRepository(
         instamojoApiClient:
-        InstamojoApiClient(environment: widget.environment));
+            InstamojoApiClient(environment: widget.environment));
   }
 
   @override
@@ -100,10 +94,10 @@ class _InstamojoState extends State<Instamojo> {
                     case LoadType.PaymentModel:
                       return PaymentModes(
                         isConvenienceFeesApplied:
-                        widget.isConvenienceFeesApplied,
+                            widget.isConvenienceFeesApplied,
                         listener: widget.listener,
                         paymentOptions:
-                        state.paymentOptionModel?.paymentOptions,
+                            state.paymentOptionModel?.paymentOptions,
                         order: state.paymentOptionModel?.order,
                         repository: repository,
                       );
@@ -172,10 +166,10 @@ class StylingDetails {
 
   StylingDetails(
       {this.buttonStyle,
-        this.listItemStyle,
-        this.loaderColor,
-        this.alertStyle,
-        this.inputFieldTextStyle});
+      this.listItemStyle,
+      this.loaderColor,
+      this.alertStyle,
+      this.inputFieldTextStyle});
 }
 
 /// InputField Styling Option
@@ -211,9 +205,9 @@ class AlertStyle {
 
   AlertStyle(
       {this.positiveButtonTextStyle,
-        this.negativeButtonTextStyle,
-        this.headingTextStyle,
-        this.messageTextStyle});
+      this.negativeButtonTextStyle,
+      this.headingTextStyle,
+      this.messageTextStyle});
 }
 
 enum Type { CREATE_ORDER, START_PAYMENT }

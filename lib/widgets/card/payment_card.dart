@@ -187,7 +187,7 @@ class CardUtils {
           child: Image.asset(
             'assets/images/$img',
             width: 8,
-            package: "flutter_instamojo",
+            package: "instamojo",
           ));
     } else {
       widget = icon as Widget;

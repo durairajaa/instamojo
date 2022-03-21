@@ -117,7 +117,7 @@ class _UpiLayoutState extends State<UpiLayout> {
       children: <Widget>[
         Center(
             child: Image.asset("assets/images/ic_verify_payment.png",
-                width: 60, package: "flutter_instamojo")),
+                width: 60, package: "instamojo")),
         const SizedBox(
           height: 10,
         ),

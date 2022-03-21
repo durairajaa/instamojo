@@ -15,7 +15,7 @@ class _TrustLogoState extends State<TrustLogo> {
       padding: const EdgeInsets.only(top: 10, bottom: 10),
       child: Image.asset(
         "assets/images/ic_trust.png",
-        package: "flutter_instamojo",
+        package: "instamojo",
       ),
     );
   }
