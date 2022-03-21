@@ -1,6 +1,6 @@
 name: instamojo
 description: Instamojo SDK from Instamojo ported to flutter as plugin with all necessary features and with Null Safety which is implementation by EvilRATT
-version: 1.0.0+1
+version: 1.0.0+2
 homepage: https://github.com/evilrat/instamojo
 repository: https://github.com/evilrat/instamojo
 issue_tracker: https://github.com/evilrat/instamojo/issues
