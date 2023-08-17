@@ -42,7 +42,8 @@ class InstamojoApiClient {
         await httpClient.get(Uri.parse(getpaymentMethods(_baseUrl, orderId!)));
 
     if (response.statusCode != 200) {
-      print("instamojo error ${response.body}");
+      print("instamojo error status ${response.statusCode}  ${response.body}");
+      print("instamojo error ${jsonDecode(response.body)}");
       throw Exception('error creating order');
     }
 
