@@ -37,7 +37,8 @@ class InstamojoBloc extends Bloc<InstamojoEvent, InstamojoState> {
         yield InstamojoLoaded(
             paymentOptionModel: paymentOptionModel,
             loadType: LoadType.PaymentModel);
-      } catch (_) {
+      } catch (e) {
+        print("instamojo error ${e}");
         yield InstamojoError();
       }
     }
